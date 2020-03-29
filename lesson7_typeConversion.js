@@ -6,8 +6,9 @@
 //==  -> loose equality implicitcasting
 console.log(true == 1);
 console.log(true === 1); //no implicit conversion
+//valueOf(), toString()
 //null equals only to null and undefined
-//NaN to equals to anything even itself -> value !== value
+//NaN not equals to anything even itself -> value !== value
 //excplicit functions String(), Boolean(), NUmber(), parseInt(), parseFloat()
 //anythin in String() or concat(+) just take string of it except object -> [object Object]
 //'' -> 0, other string with int -> NaN, false -> 0, null -> 0, true -> 1,
