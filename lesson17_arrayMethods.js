@@ -240,7 +240,9 @@ let petya1 = { name: "Petya", age: 30 };
 let masha1 = { name: "Masha", age: 28 };
 
 let testUsers2 = [vasya1, petya1, masha1];
+console.log("before sort", testUsers2[0], testUsers2[1], testUsers2[2]);
 console.log("before sort", testUsers2);  //it is also sorted somehow ...
+//chrome bug with closed values in console
 let sortByAge = function (arr) {
   arr.sort((a, b) => a.age - b.age);
 };
